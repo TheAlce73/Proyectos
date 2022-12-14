@@ -9,6 +9,6 @@ El número 6174 es conocido como la Constante de Kaprekar en honor de su descubr
   
 &nbsp;&nbsp;&nbsp;&nbsp;4.- Calcular el resto, restando el sustraendo del minuendo.
   
-&nbsp;&nbsp;&nbsp;&nbsp;5.-Si el resto no es igual a 6174, repetir los cuatro pasos anteriores, añadiendo ceros a la derecha al minuendo y a la izquierda al sustraendo, siempre que sea necesario para completar los cuatro dígitos.
+&nbsp;&nbsp;&nbsp;&nbsp;5.-Si el resto no es igual a 6174, repetir los cuatro pasos anteriores, añadiendo ceros a la derecha al minuendo y a la izquierda al sustraendo, &nbsp;&nbsp;&nbsp;&nbsp;siempre que sea necesario para completar los cuatro dígitos.
   
 Esta operación, repetida si es necesario en varias ocasiones (nunca más de siete veces), termina dando el resultado 6174. El proceso termina porque si se sigue repitiendo la secuencia de pasos, se sigue obteniendo el mismo resultado ya que 7641 – 1467 = 6174.
