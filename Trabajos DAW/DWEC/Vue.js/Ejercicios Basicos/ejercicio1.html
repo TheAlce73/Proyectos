@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 1</title>
+	<!-- production version, optimized for size and speed -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="app">
+		<div v-if="mostrar">
+			<h1>{{message}}</h1>
+		</div>
+ 	 	<img v-bind:src="imagen"/>
+ 	 	<button v-on:click="cambiaMostrar">{{boton}}</button>
+ 	 	<button v-on:click="cambiaImagen">{{boton2}}</button>
+	</div>
+
+	<script type="text/javascript" src="ejercicio1.js"></script>
+</body>
+</html>

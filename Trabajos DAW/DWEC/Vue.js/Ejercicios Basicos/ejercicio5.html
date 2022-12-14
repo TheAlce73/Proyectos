@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- versión de desarrollo, incluye advertencias de ayuda en la consola -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+		<div id="ejr5">
+			<h1>Ejercicio de h3 modificado</h1>
+			Nombre:<input type="text" id="nombre">
+			<button id="intro">Introducir</button>
+			<h3-mod v-bind:nombre='nombres[0].nom'></h3-mod>
+			<h3-mod
+			 v-for='n in nombres'
+			 v-bind:key='n.id'
+			 v-bind:ident='n.id'
+			 v-bind:nombre='n.nom'
+			></h3-mod>
+			
+
+		</div>
+		<script type="text/javascript" src="ejercicio5.js"></script>
+</body>
+</html>

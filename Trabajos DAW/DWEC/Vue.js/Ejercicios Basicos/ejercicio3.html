@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div id="aplic3">
+		<input v-model="mensaje" placeholder="Escribe aqui...">
+		<p>Estas escribiendo esto: {{mensaje}}</p>
+	</div>
+	<div id="aplic4">
+		<textarea v-model="mensaje" placeholder="Escribe aqui..."></textarea>
+		<p>Estas escribiendo esto: {{mensaje}}</p>
+	</div>
+	<div id="aplic5">
+		<input type="checkbox" id="selector" v-model="valor">
+		<lavel for="selector">{{valor}}</lavel>
+	</div>
+	<div id="aplic6">
+		<input type="checkbox" id="naranja" value="naranja" v-model="nombreFrutas">
+		<label for="naranja">naranjas</label><br>
+		<input type="checkbox" id="pera" value="pera" v-model="nombreFrutas">
+		<label for="pera">peras</label><br>
+		<input type="checkbox" id="manzana" value="manzana" v-model="nombreFrutas">
+		<label for="manzana">manzanas</label><br>
+		<span>Nombre de Frutas:{{nombreFrutas}}</span>
+	</div>
+	<div id="aplic7">
+		<input type="radio" id="uno" value="uno" v-model="eleccion">
+		<lavel for="uno">Opcion 1</lavel>
+		<input type="radio" id="dos" value="dos" v-model="eleccion">
+		<lavel for="dos">Opcion 2</lavel>
+		<input type="radio" id="tres" value="tres" v-model="eleccion">
+		<lavel for="tres">Opcion 3</lavel>
+		<br>
+		<span>Selecion {{eleccion}}</span>
+	</div>
+
+	<div id="aplic8">
+		<select v-model="seleccion">
+			<option disabled value="">Selecciona un elemento</option>
+			<option>A</option>
+			<option>B</option>
+			<option>C</option>
+		</select>
+		<br>
+		<span>Selecion :{{seleccion}}</span>
+	</div>
+	<div id="aplic9">
+		<select v-model="seleccion" multiple>
+			<option disabled value="">Selecciona un elemento</option>
+			<option>A</option>
+			<option>B</option>
+			<option>C</option>
+		</select>
+		<br>
+		<span>Selecion :{{seleccion}}</span>
+	</div>
+	<script type="text/javascript" src="ejercicio3.js"></script>
+</body>
+</html>
