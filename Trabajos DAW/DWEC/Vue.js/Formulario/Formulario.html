@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<form class="menu p-4">
+  		<div class="form-group" id="aplicacion">
+   			<label for="exampleDropdownFormEmail2">Nombre</label>
+   			<input type="text" class="form-control" v-model="nombre" id="nombre" placeholder="Escribe aqui tu nombre..."><br>
+
+   			<label for="exampleDropdownFormEmail2">Apellidos</label>
+   			<input type="text" class="form-control" v-model="apellidos" id="apellidos" placeholder="Escribe aqui tus apellidos..."><br>
+
+   			<input type="radio" id="genero" value="masculino" v-model="genero">
+			<label for="masculino">Masculino</label><br>
+			<input type="radio" id="genero" value="femenino" v-model="genero">
+			<label for="femenino">Femenino</label><br>
+
+			<select v-model="curso">
+				<option disabled value="">Selecciona un elemento</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+
+			<br><br>
+			<label for="exampleDropdownFormEmail2">Usuario</label>
+   			<input type="text" class="form-control" v-model="usuario" id="usuario" placeholder="Escribe aqui tu nombre de usuario..."><br>
+
+   			<label for="exampleDropdownFormEmail2">Titulo Del Libro</label>
+   			<input type="text" class="form-control" v-model="titulo" id="titulo" placeholder="Titulo Del Libro ...."><br>
+
+   			<label for="exampleDropdownFormEmail2">ISBN</label>
+   			<input type="text" class="form-control" v-model="isbn" id="isbn" placeholder="Escribe aqui el ISBN..."><br>
+
+    		<label for="exampleDropdownFormPassword2">Fecha Inicio Prestamo</label>
+    		<input type="date" class="form-control" v-model="fechaInicio" id="fechaInicio" placeholder=""><br>
+
+    		<label for="exampleDropdownFormPassword2">Fecha Fin Prestamo</label>
+    		<input type="date" class="form-control" v-model="fechaFin" id="fechaFin" placeholder=""><br>
+
+   			<input type="radio" id="Llevar" value="Para llevar a casa" v-model="llevar">
+			<label for="masculino">Para Llevar A Casa</label><br>
+			<input type="radio" id="Llevar" value="Para clase" v-model="llevar">
+			<label for="femenino">Para Clase</label><br>
+
+    		<p>Se realiza el préstamo del {{titulo}} (ISBN:{{isbn}}) al alumno {{nombre}} {{apellidos}} del curso {{curso}}º ,genero: {{genero}} .Con el usuario {{usuario}}.El libro es : {{llevar}} . El prestamo se inicia el {{fechaInicio}} y acabará el {{fechaFin}} </p>
+  		</div>
+ 		
+	</form>
+	<script type="text/javascript" src="formulario.js"></script>
+</body>
+</html>
