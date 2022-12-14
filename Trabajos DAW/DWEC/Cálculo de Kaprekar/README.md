@@ -1,5 +1,7 @@
 # Constante de Kaprekar
 El número 6174 es conocido como la Constante de Kaprekar en honor de su descubridor el matemático indio Dattatreya Ramachandra Kaprekar. Este número es el resultado de la aplicación repetida de la Operación de Kaprekar1​2​ que consiste en los siguientes pasos:
+
+
   1.- Escoger cualquier número de cuatro dígitos (con limitadas excepciones, véase más abajo).
   2.- Ordenar los cuatro dígitos en orden descendente, para obtener el minuendo de una resta.
   3.- Ordenar los mismos cuatro dígitos en orden ascendente, para obtener el sustraendo de la misma resta.
