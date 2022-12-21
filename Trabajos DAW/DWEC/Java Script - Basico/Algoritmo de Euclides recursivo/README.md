@@ -1,3 +1,5 @@
+#Algoritmo de Euclides
+
 Para calcular el máximo común divisor de dos números enteros puedo
 aplicar el algoritmo)de)Euclides, que consiste en ir restando el más
 pequeño del más grande hasta que queden dos números iguales, que
