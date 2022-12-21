@@ -1,16 +1,14 @@
 A partir de una frase, cambiar todas las apariciones de un conjunto de palabras por otro conjunto de palabras.
 
-ejemplo
+ejemplo:
 
 frase: El real madrid es el mejor.
 
 buscar: real madrid
-
 cambiar: sporting de gijon
 
 
 salida:
-
 El sporting de gijon es el mejor.
 
 
@@ -21,12 +19,10 @@ frase: El real madrid es el mejor. El real madrid va a jugar la supercopa en Ara
 
 
 buscar: real madrid
-
 cambiar: sporting de gijon
 
 
 salida:
-
 El sporting de gijon es el mejor. El sporting de gijon va a jugar la supercopa en Arabia Saudi.
 
 
@@ -38,10 +34,8 @@ frase: Hola Adios, ¿que tal el dia? Hola Adios, ¿que tal el dia? Hola Adios, �
 
 
 buscar: dia
-
 cambiar: día
 
 
 salida:
-
 Hola Adios, ¿que tal el día? Hola Adios, ¿que tal el día? Hola Adios, ¿que tal el día? Hola Adios, ¿que tal el día?
