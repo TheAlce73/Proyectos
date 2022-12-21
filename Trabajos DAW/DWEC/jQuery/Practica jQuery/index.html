@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Práctica Jquery</title>
+	<script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="videoJuegos.js"></script>
+</head>
+<body>
+	<div class="container p-3 my-3 border">
+		
+		<h1 class="text-info text-center" style="font-family: monospace;">
+			VideoJuegos del Averno
+		</h1>
+		<hr>
+		<div class="row" >
+			<div class="col-1 ">
+				<i id="prodAnt" class="fa fa-chevron-left" style="color:#17a2b8"></i>
+			</div>
+			<div class="col-10">
+				<h3 class="text-info text-center"></h3>
+			</div>
+  			<div class="col-1 ">
+  				<i id="prodSig" class="fa fa-chevron-right" style="color:#17a2b8"></i>
+  			</div>
+		</div>
+		<div class="row" >
+			<div class="col-8 border " >
+				<div class="row" >
+					<img id="img1" src="" class="mx-auto d-block img-fluid img-thumbnail">
+				</div>
+				<div class="row" >
+					<div class="col-4 border" >
+						<img id="img11" onclick="cambiaPantalla(0)" src="" class="mx-auto d-block img-fluid img-thumbnail">
+					</div>
+					<div class="col-4 border " >
+						<img id="img2" onclick="cambiaPantalla(1)" src="" class="mx-auto d-block img-fluid img-thumbnail">
+					</div>
+					<div class="col-4 border " >
+						<img id="img3" onclick="cambiaPantalla(2)" src="" class="mx-auto d-block img-fluid img-thumbnail">
+					</div>
+				</div>
+			</div>
+			<div class="col-4 border">
+				<img id="img" src="" class="mx-auto d-block img-fluid img-thumbnail">
+				<p id="texto"></p>
+				<button id="adquirir" type="button" class="btn btn-outline-info btn-lg">Adquirir</button>
+
+				<button  id="carrito" type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">
+  				Ir al carrito
+				</button>
+				<!--<button id="carrito" type="button" class="btn btn-outline-info btn-lg">Ir al carrito</button>-->
+			</div>
+		</div>
+		<!--<div class="row">
+			<h3>Carrito</h3>
+		</div>
+		<div id="productos"></div>-->
+	</div>
+
+	<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h3 class="modal-title">Carrito</h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div id="productos" class="modal-body">
+        
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>	

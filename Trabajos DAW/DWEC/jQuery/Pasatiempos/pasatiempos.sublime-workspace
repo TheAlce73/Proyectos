@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"sessi",
+				"session_start"
+			],
+			[
+				"json_cod",
+				"json_encode"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"pas",
+				"password_verify"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"p",
+				"pass"
+			],
+			[
+				"res",
+				"respuestaComp"
+			],
+			[
+				"bord",
+				"border-collapse\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"session_u",
+				"session_unset"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"image",
+				"imagenCargada"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"fav",
+				"favcolor"
+			],
+			[
+				"in",
+				"input\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Pasatiempos</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/entrada.css\">\n\t<script type=\"text/javascript\" src=\"js/jquery-3.4.1.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/valEntrada.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/efectos.js\"></script>\n</head>\n<body>\n\t<div id=\"principal\">\n\t\t<h1>PASATIEMPOS</h1>\n\t\t<form action=\"php/validaUser.php\" method=\"post\" onsubmit=\"return validaform()\">\n\t\t\tUsuario: <input type=\"text\" name=\"user\" id=\"user\">\n\t\t\tContrase&ntilde;a: <input type=\"text\" name=\"pass\" id=\"pass\">\n\t\t\t<input type=\"submit\" value=\"entrar\">\n\t\t</form>\n\t\t<br />\n\t\t<p id=\"aviso\"></p>\n\t\t<br />\n\t\t<div id=\"imagen1\">\n\t\t\t<img src=\"imagenes/imagenEntrada.jfif\" id=\"imgEnt\"/>\n\t\t</div>\n\t</div>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 818,
+			"file_write_time": 132243119790949201,
+			"settings":
+			{
+				"buffer_size": 778,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/entrada.css",
+			"settings":
+			{
+				"buffer_size": 299,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(document).ready(function(){\n\t$(\"#imgEnt\").slideDown(\"slows\");\n});",
+			"file": "js/efectos.js",
+			"file_size": 69,
+			"file_write_time": 132243123916380025,
+			"settings":
+			{
+				"buffer_size": 67,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/pasatiempos",
+		"/C/xampp/htdocs/pasatiempos/css",
+		"/C/xampp/htdocs/pasatiempos/datos",
+		"/C/xampp/htdocs/pasatiempos/js"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/pasatiempos/js/efectos.js",
+		"/C/xampp/htdocs/pasatiempos/js/buscaminas.js",
+		"/C/xampp/htdocs/pasatiempos/php/buscaminasClase.php",
+		"/C/xampp/htdocs/pasatiempos/php/compBuscaminas.php",
+		"/C/xampp/htdocs/pasatiempos/php/buscaminas.php",
+		"/C/xampp/htdocs/pasatiempos/php/compBuscaminas.js",
+		"/C/xampp/htdocs/pasatiempos/php/juegosudoku.php",
+		"/C/xampp/htdocs/pasatiempos/php/sudokuClase.php",
+		"/C/xampp/htdocs/pasatiempos/php/juegoahorcado.php",
+		"/C/xampp/htdocs/pasatiempos/php/cerrarSesion.php",
+		"/C/xampp/htdocs/pasatiempos/php/cierraSesion.html",
+		"/C/xampp/htdocs/pasatiempos/php/listaHistorial.php",
+		"/C/xampp/htdocs/pasatiempos/php/validaUser.php",
+		"/C/xampp/htdocs/pasatiempos/css/ventanaModal.css",
+		"/C/xampp/htdocs/pasatiempos/js/ventanaModal.js",
+		"/C/xampp/htdocs/pasatiempos/php/registraBD.php",
+		"/C/xampp/htdocs/pasatiempos/php/historial.php",
+		"/C/xampp/htdocs/pasatiempos/php/validausuarios.php",
+		"/C/xampp/htdocs/pasatiempos/basededatos/creaTablas.sql",
+		"/C/xampp/htdocs/pasatiempos/datos/pasatiempos.conf",
+		"/C/xampp/htdocs/pasatiempos/php/listausuarios.php",
+		"/C/xampp/htdocs/pasatiempos/php/registrauser.php",
+		"/C/xampp/htdocs/ejercicios/ejerBD/ejercicio1/ejer4.php",
+		"/C/xampp/htdocs/ejercicios/ejerBD/ejercicio1/ejer3.php",
+		"/C/xampp/htdocs/ejercicios/ejerBD/ejercicio1/ejer2.php",
+		"/C/xampp/htdocs/pasatiempos/js/compruebaAhrcd.js",
+		"/C/xampp/htdocs/pasatiempos/php/nuevoAhorcado.php",
+		"/C/xampp/htdocs/pasatiempos/js/compruebaSdk.js",
+		"/C/xampp/htdocs/pasatiempos/js/sudokuTabla.js",
+		"/C/xampp/htdocs/pasatiempos/js/valEntrada.js",
+		"/C/xampp/htdocs/ejercicios/ejerAjax1/ejerAjax1.js",
+		"/C/xampp/htdocs/ejercicios/ejerAjax1/ejerAjax1.php",
+		"/C/xampp/htdocs/ejercicios/ejerAjax1/formulario.html",
+		"/C/xampp/htdocs/ejercicios/index.html",
+		"/C/xampp/htdocs/pasatiempos/php/compruebaSdk.php",
+		"/C/xampp/htdocs/pasatiempos/css/entrada.css",
+		"/C/xampp/htdocs/pasatiempos/css/tabla.css",
+		"/C/xampp/htdocs/pasatiempos/pasatiempos.html",
+		"/C/xampp/htdocs/pasatiempos/datos/sudoku.dat",
+		"/C/xampp/htdocs/DWES/clases/fruta.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/validaConFiltro.html",
+		"/C/xampp/htdocs/DWES/cookiessesiones/formLogin.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/login.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/fiboDestroy.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/fibonCookie.php",
+		"/C/xampp/htdocs/DWEC/ValidaForm/js/validaform.js",
+		"/C/xampp/htdocs/DWEC/ValidaForm/datosValidos.php",
+		"/C/xampp/htdocs/DWEC/ValidaForm/validaform.php",
+		"/C/xampp/htdocs/DWEC/ValidaForm/validaform.html",
+		"/C/xampp/htdocs/DWEC/practicaDOM.html",
+		"/C/xampp/htdocs/DWES/cookiessesiones/ponnombre.html",
+		"/C/xampp/htdocs/DWEC/DOM/js/practicaDOM.js",
+		"/C/xampp/htdocs/DWES/cookiessesiones/ponNombre.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/sacacookies.php",
+		"/C/xampp/htdocs/DWES/cookiessesiones/miprimcookie.php",
+		"/C/xampp/htdocs/DWEC/basico/js/cuentaletras.js",
+		"/C/xampp/htdocs/DWEC/basico/cuantaletra.html",
+		"/C/xampp/htdocs/DWEC/basico/js/reverse.js",
+		"/C/xampp/htdocs/DWEC/basico/reverse.html",
+		"/C/xampp/htdocs/DWES/basico/contaletras.html",
+		"/C/xampp/htdocs/DWES/basico/cuentaletras.php",
+		"/C/xampp/htdocs/DWES/basico/reverse.php",
+		"/C/xampp/htdocs/DWES/basico/reverse.html",
+		"/C/xampp/htdocs/DWES/basico/cadenaordenada.php",
+		"/C/xampp/htdocs/DWEC/basico/cadenaordenada.html",
+		"/C/xampp/htdocs/DWEC/basico/js/cadenaordenada.js",
+		"/C/xampp/htdocs/DWES/basico/cadenarordenada.php",
+		"/C/xampp/htdocs/DWEC/basico/js/verDate.js",
+		"/C/xampp/htdocs/DWEC/basico/verDate.html",
+		"/C/xampp/htdocs/DWEC/basico/js/tipoDatoForm.js",
+		"/C/xampp/htdocs/DWEC/basico/tipoDatoForm.html",
+		"/C/xampp/htdocs/DWEC/basico/tipodato.html",
+		"/C/xampp/htdocs/DWEC/basico/js/tipodato.js",
+		"/C/xampp/htdocs/DWES/basico/sudoku/sudoku.css",
+		"/C/xampp/htdocs/DWES/basico/sudoku/sudoku.php",
+		"/C/xampp/htdocs/DWES/basico/tipoDato.php",
+		"/C/xampp/htdocs/DWES/basico/compVariable.php",
+		"/C/xampp/htdocs/DWES/basico/filtraDuplicados.php",
+		"/C/xampp/htdocs/DWES/basico/filtraDuplicados.html",
+		"/C/xampp/htdocs/DWEC/basico/filtraDuplicados.php",
+		"/C/xampp/htdocs/DWEC/basico/cerosyunos.html",
+		"/C/xampp/htdocs/DWES/basico/unosyceros.php",
+		"/C/xampp/htdocs/DWEC/basico/bucles.html",
+		"/C/xampp/htdocs/DWEC/basico/js/bucles.js",
+		"/C/xampp/htdocs/DWEC/basico/js/bucles2.js",
+		"/C/xampp/htdocs/DWEC/basico/js/condicionales.js",
+		"/C/xampp/htdocs/DWEC/basico/condicionales.html",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/foreachGet.php",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/foreach.php",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/for.php",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/while.php",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/switch.php",
+		"/C/xampp/htdocs/DWES/basico/sintaxis/sicondicional.php",
+		"/C/xampp/htdocs/DWEC/basico/js/constanteDeKrapekar.js",
+		"/C/xampp/htdocs/DWEC/basico/kaprekar.html",
+		"/C/xampp/htdocs/DWEC/basico/js/fibonacci.js",
+		"/C/xampp/htdocs/DWEC/basico/js/euromillones.js",
+		"/C/xampp/htdocs/DWES/basico/euromillon.html",
+		"/C/xampp/htdocs/DWES/basico/euromillon.php",
+		"/C/xampp/htdocs/DWES/basico/euromillones.html",
+		"/C/xampp/htdocs/DWEC/basico/euromillones.html",
+		"/C/xampp/htdocs/DWES/basico/pruebaEscrita.php",
+		"/C/xampp/htdocs/DWES/basico/pruebaEscrita.html",
+		"/C/xampp/htdocs/DWEC/basico/pruebaEscrita.html",
+		"/C/xampp/htdocs/DWEC/basico/pruebaEscrita.php",
+		"/C/xampp/htdocs/DWEC/basico/fibonacci.html",
+		"/C/xampp/htdocs/DWEC/basico/ejemplo1.html",
+		"/C/xampp/htdocs/DWEC/basico/js/ejemplo1.js",
+		"/C/xampp/htdocs/DWES/basico/ejemplo6.php",
+		"/C/xampp/htdocs/DWES/basico/formbasico.html",
+		"/C/xampp/htdocs/DWEC/basico/js/fibonacci.html",
+		"/C/xampp/htdocs/DWES/basico/ejmplo6.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Entra en la plataforma",
+			"entra en la plataforma",
+			"),",
+			"array(",
+			"COOKIE",
+			"GET",
+			"POST",
+			");\n",
+			"\"],((",
+			"}\n",
+			"/>\n",
+			"]",
+			"[",
+			"console",
+			"if",
+			"hola"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"SESSION",
+			"POST",
+			"GET",
+			")",
+			"("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 26.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/entrada.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "js/efectos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pasatiempos.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

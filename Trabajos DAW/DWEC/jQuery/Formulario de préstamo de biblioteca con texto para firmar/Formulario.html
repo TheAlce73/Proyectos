@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<form class="menu p-4">
+  		<div class="form-group" id="aplicacion">
+   			<label for="exampleDropdownFormEmail2">Nombre</label>
+   			<input type="text" class="form-control" v-model="nombre" id="nombre" placeholder="Escribe aqui tu nombre..."><br>
+
+   			<label for="exampleDropdownFormEmail2">Apellidos</label>
+   			<input type="text" class="form-control" v-model="apellidos" id="apellidos" placeholder="Escribe aqui tus apellidos..."><br>
+
+   			<input type="radio" id="genero" value="masculino" v-model="genero">
+			<label for="masculino">Masculino</label><br>
+			<input type="radio" id="genero" value="femenino" v-model="genero">
+			<label for="femenino">Femenino</label><br>
+
+			<select v-model="curso">
+				<option disabled value="">Selecciona un elemento</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+
+			<br><br>
+			<label for="exampleDropdownFormEmail2">Usuario</label>
+   			<input type="text" class="form-control" v-model="usuario" id="usuario" placeholder="Escribe aqui tu nombre de usuario..."><br>
+
+   			<label for="exampleDropdownFormEmail2">Titulo Del Libro</label>
+   			<input type="text" class="form-control" v-model="titulo" id="titulo" placeholder="Titulo Del Libro ...."><br>
+
+   			<label for="exampleDropdownFormEmail2">ISBN</label>
+   			<input type="text" class="form-control" v-model="isbn" id="isbn" placeholder="Escribe aqui el ISBN..."><br>
+
+    		<label for="exampleDropdownFormPassword2">Fecha Inicio Prestamo</label>
+    		<input type="date" class="form-control" v-model="fechaInicio" id="fechaInicio" placeholder=""><br>
+
+    		<label for="exampleDropdownFormPassword2">Fecha Fin Prestamo</label>
+    		<input type="date" class="form-control" v-model="fechaFin" id="fechaFin" placeholder=""><br>
+
+   			<input type="radio" id="Llevar" value="Para llevar a casa" v-model="llevar">
+			<label for="masculino">Para Llevar A Casa</label><br>
+			<input type="radio" id="Llevar" value="Para clase" v-model="llevar">
+			<label for="femenino">Para Clase</label><br>
+
+    		<p>Se realiza el préstamo del {{titulo}} (ISBN:{{isbn}}) al alumno {{nombre}} {{apellidos}} del curso {{curso}}º ,genero: {{genero}} .Con el usuario {{usuario}}.El libro es : {{llevar}} . El prestamo se inicia el {{fechaInicio}} y acabará el {{fechaFin}} </p>
+  		</div>
+ 		
+	</form>
+	<script type="text/javascript" src="formulario.js"></script>
+</body>
+</html>

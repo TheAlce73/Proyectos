@@ -1,0 +1,17 @@
+Usar Vue para vincular datos y formulario. Usar bootstrap para tener buen aspecto de la página.
+
+Los campos del formulario son:
+Nombre
+Apellidos
+genero
+Curso
+Usuario (zx)
+Título del libro
+ISBN
+Fecha préstamo inicio
+Fecha préstamo fin
+Tipo de préstamo (para llevar o para clase)
+
+Debajo del formulario tiene que aparecer un texto que se completa automáticamente. El texto tiene en negrita los datos del formulario. Ej:
+
+Se realiza el préstamo del libro Caperucita Roja al alumno Juan García Rodriguez del curso 3º C de primaria con el usuario zx21student1111 ... etc ...

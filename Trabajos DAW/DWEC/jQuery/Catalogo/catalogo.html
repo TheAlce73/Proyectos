@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CATÁLOGO</title>
+
+	<script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="catalogo.js"></script>
+
+</head>
+<body>
+	<div class="container border">
+		<h1 class="jumbotron text-center">Catálogo</h1>
+
+			<div class="row">
+				<div class="col-1"><i class="fa fa-angle-double-left" style="font-size: 48px;" id="prodAnt"></i></div>
+				<div class="col-10 text-center" id="nomProd"></div>
+				<div class="col-1" style="font-size: 48px;" id="prodSig"><i class="fa fa-angle-double-right"></i></div>
+			</div>
+
+			<div class="row border">
+				<div class="col border">
+					<div class="card">
+						<div class="card-header">
+							<h1>Caracteristicas</h1>
+							<div id="lista">
+								
+							</div>
+						</div>
+				</div>
+			</div>
+
+				<div class="col border">
+					<div class="card">
+						<div class="img-fluid" id="imagen"></div>
+						
+				</div>
+			</div>
+
+				<div class="col border">
+					<div class="card">
+						<div class="card-header">
+							<h1>Precio</h1>
+							<p id="precio"><p>
+						</div>
+						<div class="card-body">
+							<h1>Stock</h1>
+							<p id="stock"><p>
+						</div>
+						<button id="cesta" type="button" class="btn btn-dark">Cesta(0)</button>
+						<button id="mostrars" type="button" class="btn btn-secondary">Ver Cesta</button>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="col border">
+					<div class="card">
+						<div class="card-header">
+							<h1>Productos Cesta</h1>
+							<p id="productos"><p>
+						</div>
+						
+				</div>
+	</div>
+</body>
+</html>

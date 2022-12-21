@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+#principal {
+	text-align: center;
+  	display: block;
+  	height: 50%;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#imgEnt {
+  	display: none;
+  	height: 50%;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border: 3px solid #73AD21;
+}
