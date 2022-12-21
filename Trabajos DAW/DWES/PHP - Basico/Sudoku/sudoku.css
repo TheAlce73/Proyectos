@@ -1,0 +1,22 @@
+table {
+	width: 50%;
+	height: 500px;
+	border-collapse: collapse;
+}
+
+td {
+	border:1px solid black;
+	text-align: center;
+}
+
+.vacio {
+	background-color: #EEEE00;
+}
+
+.lineaGH{
+	border-bottom: 3px solid black;
+}
+
+.lineaGV{
+	border-right: 3px solid black;
+}
