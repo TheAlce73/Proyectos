@@ -14,7 +14,6 @@ atualizar();
 $(document).ready(function (){
 	console.log("Inicio");
 	atualizar();
-	 window.alert(datos[0]);
 	$("#prodAnt").click(fProdAnt);
 	$("#prodSig").click(fProdSig);
 	$("#adquirir").click(anadir);	
