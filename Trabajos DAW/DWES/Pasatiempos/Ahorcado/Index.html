@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	<script type="text/javascript" src="javaScript/js1.js"></script>
+</head>
+<body>
+	<div id="div1">
+		<h1 id="Titulo">Sudoku</h1>
+		<br>
+		<form onsubmit="return validar()" action="php/ahorcado.php" method="post">
+		  Usuario<input type="text" name="Usuario" id="Usuario">
+		  Contraseña<input type="text" name="Contra" id="Contra">  
+			<input type="submit" name="Aceder" value="Entrar">
+		 
+
+		</form>
+		<br>
+		<p id="texto"></p>
+		<br>
+		<img id="Foto" src="imagenes/Foto.png"/>
+	</div>
+</body>
+</html>
